@@ -1,0 +1,67 @@
+body {
+  /* background: #e7d31f; */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  background-color: rgb(252, 126, 104);
+}
+
+main {
+  width: 300px;
+  background: rgb(255, 224, 47);
+  padding: 20px;
+  border: 4px solid silver;
+  border-style: outset;
+  border-radius: 12px;
+  margin: 16px auto;
+  display: flex;/*画像を横並びにする*/
+  justify-content: space-between;
+}
+
+.panel img {
+  width: 90px;
+  height: 110px;
+  border: 4px solid rgba(122, 122, 122, 0.5);
+  border-style: inset;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 4px;/*ボタンとの間を空ける*/
+  user-select: none;
+}
+
+.stop {
+  cursor: pointer;
+  width: 90px;
+  height: 32px;
+  background: #ef454a;
+  box-shadow: 0 4px 0 #d1483e;
+  border-radius: 16px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  user-select: none;
+}
+
+#spin {
+  cursor: pointer;
+  width: 280px;
+  height: 36px;
+  background: #3498db;
+  box-shadow: 0 4px 0 #2880b9;
+  border-radius: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  user-select: none;
+  margin: 16px auto;
+}
+
+img.unmatched {
+opacity: 0.5;
+border-color: rgba(122, 122, 122);
+}
+
+.inactive {
+  opacity: 0.5;
+}
